@@ -33,23 +33,16 @@ yarn add nepal-address-pickers
 1. Import the components from `nepal-address-pickers` in your React application:
 
 ```javascript
-import { DistrictPicker, RegionPicker } from 'nepal-address-pickers';
+import { SelectDistrict } from 'nepal-address-pickers';
 ```
 
 2. Use the components in your JSX:
 
 ```jsx
-function AddressSelection() {
-  return (
-    <div>
-      <h2>Select District:</h2>
-      <DistrictPicker onChange={(selectedDistrict) => console.log(selectedDistrict)} />
-
-      <h2>Select Region:</h2>
-      <RegionPicker onChange={(selectedRegion) => console.log(selectedRegion)} />
-    </div>
-  );
-}
+<SelectDistrict
+  placeholder="Select a district"
+  onChange={option=>console.log(option)}
+/>
 ```
 
 ## Contributing
