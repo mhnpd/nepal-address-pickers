@@ -55,5 +55,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Created with ❤️ by [mhnpd](https://github.com/mhnpd) 🇳🇵 
-
