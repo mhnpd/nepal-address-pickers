@@ -1,4 +1,4 @@
-# Nepal Address Pickers 🗺️ :flag_np:
+# Nepal Address Pickers 🗺️ 🇳🇵 
 
 
 [![npm version](https://badge.fury.io/js/nepal-address-pickers.svg)](https://badge.fury.io/js/nepal-address-pickers)
@@ -55,5 +55,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Created with ❤️ by [mhnpd](https://github.com/mhnpd) :flag_np:
+Created with ❤️ by [mhnpd](https://github.com/mhnpd) 🇳🇵 
 
