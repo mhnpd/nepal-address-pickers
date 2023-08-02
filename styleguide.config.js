@@ -1,11 +1,25 @@
+/* eslint-disable no-undef */
 module.exports = {
-  title: "Awesome React Component",
+  title: "Nepal Address Pickers",
   ribbon: {
     // Link to open on the ribbon click (required)
-    url: 'http://example.com/',
+    url: 'https://github.com/mhnpd/nepal-address-pickers',
     // Text to show on the ribbon (optional)
     text: 'Fork me on GitHub'
   },
+  sections: [
+    {
+      name: 'Introduction', // Name of the section
+      content: 'docs/intro.md', // Path to your Markdown or JSX intro file
+    },
+    {
+      name: 'Components',
+      components: 'src/components/**/*.tsx',
+    },
+    // ... other sections
+  ],
+  pagePerSection: true,
+  skipComponentsWithoutExample: true,
   webpackConfig: {
     module: {
       rules: [

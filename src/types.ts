@@ -1,61 +1,61 @@
 export interface DistrictInfo {
-  Name: string;
-  Nepali: string;
-  Headquarters: string;
-  Population2011: string;
-  Area: string;
-  Province: string;
-  LocalBodiesType: string[];
+  Name: string
+  Nepali: string
+  Headquarters: string
+  Population_2011: string
+  Area_km2: number | string
+  Province: string
+  LocalBodiesType: string[]
 }
 
 export interface MetropolitanInfo {
-  Name: string;
-  Nepali: string;
-  District: string;
-  Province: string;
-  Population2011: string;
-  AreaKm: string;
+  Name: string
+  Nepali: string
+  District: string
+  Province: string
+  Population_2011: string
+  Area_km2: number | string
 }
 
 export interface MunicipalityInfo {
-  Name: string;
-  Nepali: string;
-  District: string;
-  Province: string;
-  Population2011: string;
-  Area: string;
+  Name: string
+  Nepali: string
+  District: string
+  Province: string
+  Population_2011: string
+  Area_km2: number | string
 }
 
 export interface ProvinceInfo {
-  Provinces: string;
-  Nepali: string;
-  Capital: string;
-  AreaKm: string;
-  Population2011: string;
+  Provinces: string
+  Nepali: string
+  Capital: string
+  Area_km2: number | string
+  Population_2011: string
 }
 
 export interface RuralMunicipalityInfo {
-  Name: string;
-  Nepali: string;
-  District: string;
-  Population2011: string;
-  AreaKm: string;
-  Density: string;
-  Province: string;
+  Name: string
+  Nepali: string
+  District: string
+  Population_2011: string
+  Area_km2: number | string
+  Density: string
+  Province: string
 }
 
 export interface SubMetroInfo {
-  Name: string;
-  Nepali: string;
-  District: string;
-  Province: string;
-  Population2011: string;
-  Area: string;
+  Name: string
+  Nepali: string
+  District: string
+  Province: string
+  Population_2011: string
+  Area_km2: number | string
 }
 
-export type PossibleKeys = keyof DistrictInfo
+export type PossibleKeys =
+  | keyof DistrictInfo
   | keyof MunicipalityInfo
   | keyof MetropolitanInfo
   | keyof ProvinceInfo
   | keyof RuralMunicipalityInfo
-

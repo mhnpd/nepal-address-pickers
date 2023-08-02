@@ -1,5 +1,3 @@
-export * from './components/example'
-
-export function HelloWord(name: string): string {
-  return 'Hello' + name
-}
+export * from "./components/select-district"
+export * from "./components/select-localbody"
+export * from "./components/select-province"
