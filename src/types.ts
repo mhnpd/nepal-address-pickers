@@ -53,3 +53,9 @@ export interface SubMetroInfo {
   Area: string;
 }
 
+export type PossibleKeys = keyof DistrictInfo
+  | keyof MunicipalityInfo
+  | keyof MetropolitanInfo
+  | keyof ProvinceInfo
+  | keyof RuralMunicipalityInfo
+
